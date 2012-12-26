@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Place a barcode inside the view finder rectangle to scan it.</string>
+    <string name="app_name">MobileClient</string>
+    <string name="search">Search</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="manual">Manual</string>
+    <string name="voice">Voice</string>
+    <string name="about">About Project</string>
+    <string name="btn1">Next</string>
+    <string name="btn2">Back</string>
+    <string name="input">input your search items</string>
+    <string name="tips">this part is about Location!</string>
+    
+    <string name="voice_header_title">Text and Voice Input</string>
+    <string name="voice_product">search</string>
+    <string name="voice_talk">pls talk!</string>
+    <string name="voice_nextstep">Next Step</string>
+    <string name="voice_search_button">Search Button</string>
+    <string name="vocie_radiogroup"></string>
+    <string name="voice_radiobutton1">Product Name</string>
+    <string name="voice_radiobutton2">Shop Name</string>
+    <string name="voice_radiobutton3">Barcode</string>
+    
+    <string name="fa_btn1">Scan </string>
+    <string name="fa_btn2">Voice</string>
+    <string name="fa_btn3">Map</string>
+    <string name="fa_btn4">History</string>
+    
+    <string name="soap_search_result">Products Information</string>
+    <string name="soap_type">Type:</string>
+    <string name="soap_barcode">Barcode:</string>
+    <string name="soap_name">Name:</string>
+    <string name="soap_local_shop">**********Local Shop************</string>
+    <string name="soap_shop_name">Shop Name: </string>
+    <string name="soap_shop_addr">Shop Addr: </string>
+    <string name="soap_shop_tel">Shop Tel: </string>
+    <string name="soap_product_price">Price: </string>
+    <string name="soap_online_shop">**********Online Shop************</string>
+    <string name="soap_website">WebSite : </string>
+    
+    <string name="text_search">Search</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Your Nearest Places</string>
+    
+</resources>

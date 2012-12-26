@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.xjtlu.mobilewebservices"
+    android:versionCode="1"
+    android:versionName="1.0" android:installLocation="auto">
+
+    <uses-sdk android:minSdkVersion="8"
+              android:targetSdkVersion="14" />
+   
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    
+    <uses-feature    android:name="android.hardware.camera" />
+	<uses-feature    android:name="android.hardware.camera.autofocus" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    
+    <application
+        android:icon="@drawable/application_logo"
+        android:label="MobilePortal"  android:theme="@style/MyTheme" >
+        <uses-library android:name="com.google.android.maps" android:required="true"/> 
+        
+        <activity
+            android:name=".MainFunction" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".CaptureActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        
+        
+        <activity android:name=".place.MainActivity" >
+		</activity>
+		
+        <!-- SinglePlaceActivity -->
+        <activity android:name=".place.SinglePlaceActivity"></activity>
+        
+        <!-- PlacesMapActivity -->
+        <activity android:name=".place.PlacesMapActivity" >
+</activity>
+
+        <activity android:name=".voice.VoiceEntry" ></activity>
+        <activity android:name=".textentry.TextEntry"></activity>
+        <activity android:name=".view.ViewfinderResultPointCallback"></activity>
+        <activity android:name=".view.ViewfinderView"></activity>
+        <activity android:name=".webservice.Barcode2WS"></activity>
+        <activity android:name=".history.HistoryList"></activity>
+
+    </application>
+
+</manifest>
